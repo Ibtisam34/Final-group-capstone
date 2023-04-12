@@ -13,8 +13,8 @@ gem 'sprockets-rails'
 gem 'pg', '~> 1.1'
 
 # Use the Puma web server [https://github.com/puma/puma]
+gem 'fast_jsonapi'
 gem 'puma', '~> 5.0'
-
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem 'devise'
 gem 'devise-jwt'
