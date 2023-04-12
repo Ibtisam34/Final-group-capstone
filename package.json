@@ -1,0 +1,24 @@
+{
+  "name": "final-group-capstone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ibtisam34/Final-group-capstone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ibtisam34/Final-group-capstone/issues"
+  },
+  "homepage": "https://github.com/Ibtisam34/Final-group-capstone#readme"
+}
