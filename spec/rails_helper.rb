@@ -1,5 +1,7 @@
+
 require 'shoulda/matchers'
 require 'factory_bot_rails'
+
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 require 'spec_helper'
 ENV['RAILS_ENV'] ||= 'test'
@@ -37,6 +39,7 @@ RSpec.configure do |config|
   config.include(Shoulda::Matchers::ActiveModel, type: :model)
   config.include FactoryBot::Syntax::Methods
   config.include RSpec::Matchers::BuiltIn
+
   # If you're not using ActiveRecord, or you'd prefer not to run each of your
   # examples within a transaction, remove the following line or assign false
   # instead of true.
