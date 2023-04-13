@@ -11,3 +11,8 @@ User.create(username:'Fash', email:'Fash4@gmail.com', password:'yuho456', role:0
 User.create(username:'Riyana', email:'Riyana1@gmail.com', password:'passmark', role:1)
 User.create(username:'Odai', email:'Odai@gmail.com', password:'great478', role:1)
 User.create(username:'girma', email:'girma@gmail.com', password:'codereviewer', role:1)
+
+Doctor.create(name: "John Doe", specialization: "Cardiology", email: "johndoe@example.com", phone: "123-456-7890", user_id: 1)
+Doctor.create(name: "Jane Smith", specialization: "Neurology", email: "janesmith@example.com", phone: "555-555-5555", user_id: 2)
+Doctor.create(name: "Michael Johnson", specialization: "Oncology", email: "michaeljohnson@example.com", phone: "987-654-3210", user_id: 3)
+Doctor.create(name: "Emily Chen", specialization: "Dermatology", email: "emilychen@example.com", phone: "111-222-3333", user_id: 4)
