@@ -116,7 +116,7 @@ Install this project with:
 
 
 ### Run tests
-
+```
 To run tests, run the following command:
 rspec spec/models/doctor_spec.rb
 rspec spec/models/user_spec.rb
