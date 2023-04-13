@@ -124,8 +124,8 @@ rspec spec/requests/api/users/registrations_spec.rb
 rspec spec/requests/api/users/sessions_spec.rb
 ```
 
-```
 
+ -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
