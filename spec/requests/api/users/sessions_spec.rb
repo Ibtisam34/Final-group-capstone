@@ -1,7 +1,7 @@
 require 'swagger_helper'
 RSpec.describe 'api/users/sessions', type: :request do
   describe 'api/login' do
-    let(:user) { User.new(username:'Odai', email:'Odai@gmail.com', password:'great478') }
+    let(:user) { User.new(username: 'Odai', email: 'Odai@gmail.com', password: 'great478') }
     before { user.save }
     context 'DELETE /api/logout' do
       it 'returns a 204 response with no body' do
