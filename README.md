@@ -182,7 +182,7 @@ Give a ⭐️ if you like this project!
 
 - [Kanban Board](https://github.com/users/Ibtisam34/projects/12)
 
-- Team of 3 members
+- Team of 4 members
 
 - ![Screenshot]()
 
