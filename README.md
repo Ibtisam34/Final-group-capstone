@@ -126,19 +126,6 @@ rspec spec/requests/api/users/sessions_spec.rb
 
 ```
 
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
