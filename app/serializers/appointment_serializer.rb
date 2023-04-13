@@ -1,4 +1,6 @@
 class AppointmentSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :id, :pickup_date, :return_date, :user_id, :doctor_id, :created_at
+  attributes :id, :pickup_date, :return_date, :created_at
+  belongs_to :user
+  belongs_to :doctor
 end
