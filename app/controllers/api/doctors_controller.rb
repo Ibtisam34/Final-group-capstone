@@ -1,5 +1,6 @@
 class Api::DoctorsController < ApplicationController
   before_action :authenticate_user!
+  include Devise::Controllers::Helpers
 
   def index
     render json: {
@@ -73,8 +74,6 @@ class Api::DoctorsController < ApplicationController
       status: { code: 200, message: 'Doctor was deleted successfully' }
     }
   end
-
-  private
 
   def doctor_params
     params.require(:doctor).permit(:name, :specialty, :email, :phone)
