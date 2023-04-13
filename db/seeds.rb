@@ -10,6 +10,7 @@ User.create(username:'Luul', email:'nawal@gmail.com', password:'235678', role:0)
 User.create(username:'Fash', email:'Fash4@gmail.com', password:'yuho456', role:0)
 User.create(username:'Riyana', email:'Riyana1@gmail.com', password:'passmark', role:1)
 User.create(username:'Odai', email:'Odai@gmail.com', password:'great478', role:1)
+user1 = User.create(username:'girma', email:'girma@gmail.com', password:'codereviewer', role:1)
 User.create(username:'girma', email:'girma@gmail.com', password:'codereviewer', role:1)
 
 # Appointments table sample data
@@ -18,3 +19,7 @@ Appointment.create(user_id:2, doctor_id:3, pickup_date:'2023-03-24', return_date
 Appointment.create(user_id:3, doctor_id:2, pickup_date:'2023-03-27', return_date:'2023-03-30')
 Appointment.create(user_id:4, doctor_id:5, pickup_date:'2023-03-4', return_date:'2023-04-06')
 Appointment.create(user_id:5, doctor_id:4, pickup_date:'2023-03-10', return_date:'2023-03-20')
+Appointment.create(pickup_date: "2020/23/1", return_date: "2023/09/4", user_id: user1.id, doctor_id: doc1.id )
+
+doc1 = Doctor.create!(name:'Alex', email:'alex@gmail.com', phone:'1234565678', specialization: "Doc", user_id: user1.id)
+
