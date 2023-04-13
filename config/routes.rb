@@ -19,5 +19,6 @@ Rails.application.routes.draw do
    
     resources :users, only: [:index, :show] do
     end 
+    resources :doctors, only: [:index, :show, :create, :update, :destroy]
   end
 end
