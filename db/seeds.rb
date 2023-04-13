@@ -10,7 +10,6 @@ User.create(username:'Luul', email:'nawal@gmail.com', password:'235678', role:0)
 User.create(username:'Fash', email:'Fash4@gmail.com', password:'yuho456', role:0)
 User.create(username:'Riyana', email:'Riyana1@gmail.com', password:'passmark', role:1)
 User.create(username:'Odai', email:'Odai@gmail.com', password:'great478', role:1)
-
 User.create(username:'girma', email:'girma@gmail.com', password:'codereviewer', role:1)
 
 Doctor.create(name: "John Doe", specialization: "Cardiology", email: "johndoe@example.com", phone: "123-456-7890", user_id: 1)

@@ -114,10 +114,10 @@ GEM
     factory_bot_rails (6.2.0)
       factory_bot (~> 6.2.0)
       railties (>= 5.0.0)
-    faker (3.1.1)
-      i18n (>= 1.8.11, < 2)
     fast_jsonapi (1.5)
       activesupport (>= 4.2)
+    figaro (1.2.0)
+      thor (>= 0.14.0, < 2)
     globalid (1.1.0)
       activesupport (>= 5.0)
     i18n (1.12.0)
@@ -321,8 +321,8 @@ DEPENDENCIES
   devise
   devise-jwt
   factory_bot_rails
-  faker
   fast_jsonapi
+  figaro
   importmap-rails
   jbuilder
   pg (~> 1.1)
@@ -342,7 +342,7 @@ DEPENDENCIES
   webdrivers
 
 RUBY VERSION
-   ruby 3.2.1p31
+   ruby 3.1.3p185
 
 BUNDLED WITH
    2.4.9
