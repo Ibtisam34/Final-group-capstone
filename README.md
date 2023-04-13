@@ -131,6 +131,14 @@ rspec spec/requests/api/users/sessions_spec.rb
 
 You can deploy this project using:
 
+<!--
+Example:
+
+```sh
+
+```
+ -->
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
@@ -141,7 +149,6 @@ You can deploy this project using:
 
 - GitHub: [@ibtisam34](https://github.com/ibtisam34)
 - LinkedIn: [Falis](https://linkedin.com/in/falis-abdikani/)
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -188,7 +195,7 @@ Give a ⭐️ if you like this project!
 
 - [Kanban Board](https://github.com/users/Ibtisam34/projects/12)
 
-- Team of 4 members
+- Team of 3 members
 
 - ![Screenshot]()
 
