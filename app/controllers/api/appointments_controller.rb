@@ -23,7 +23,7 @@ class Api::AppointmentsController < ApplicationController
   end
 
   def create
-    @appointment = current_user.appointment.new(appoint_params)
+    @appointment = current_user.appointment.new(appointment_params)
 
     if @appointment.save
       render json: {
@@ -76,7 +76,7 @@ class Api::AppointmentsController < ApplicationController
 
   private
 
-  def appoint_params
+  def appointment_params
     params.require(:appointment).permit(:pickup_date, :return_date, :doctor_id)
   end
 end
