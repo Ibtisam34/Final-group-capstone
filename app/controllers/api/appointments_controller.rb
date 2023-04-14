@@ -47,7 +47,7 @@ class Api::AppointmentsController < ApplicationController
       return
     end
 
-    if @appointment.update(appoint_params)
+    if @appointment.update(appointment_params)
       render json: {
         status: { code: 200, message: 'Appoinment updated successfully' },
         data: @appointment
