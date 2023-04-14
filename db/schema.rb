@@ -30,10 +30,10 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_13_083413) do
     t.string "specialization"
     t.string "email"
     t.string "phone"
+    t.string "image"
+    t.string "availability"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.bigint "user_id", null: false
-    t.index ["user_id"], name: "index_doctors_on_user_id"
   end
 
   create_table "jwt_denylist", force: :cascade do |t|
@@ -58,5 +58,4 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_13_083413) do
 
   add_foreign_key "appointments", "doctors"
   add_foreign_key "appointments", "users"
-  add_foreign_key "doctors", "users"
 end

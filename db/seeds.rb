@@ -12,10 +12,10 @@ User.create(username:'Riyana', email:'Riyana1@gmail.com', password:'passmark', r
 User.create(username:'Odai', email:'Odai@gmail.com', password:'great478', role:1)
 User.create(username:'girma', email:'girma@gmail.com', password:'codereviewer', role:1)
 
-Doctor.create(name: "John Doe", specialization: "Cardiology", email: "johndoe@example.com", phone: "123-456-7890", user_id: 1)
-Doctor.create(name: "Jane Smith", specialization: "Neurology", email: "janesmith@example.com", phone: "555-555-5555", user_id: 2)
-Doctor.create(name: "Michael Johnson", specialization: "Oncology", email: "michaeljohnson@example.com", phone: "987-654-3210", user_id: 3)
-Doctor.create(name: "Emily Chen", specialization: "Dermatology", email: "emilychen@example.com", phone: "111-222-3333", user_id: 4)
+Doctor.create(name: "John Doe", specialization: "Cardiology", email: "johndoe@example.com", phone: "123-456-7890",image: "john_doe.jpg", availability: "Monday-Friday, 9am-5pm")
+Doctor.create(name: "Jane Smith", specialization: "Neurology", email: "janesmith@example.com", phone: "555-555-5555", image: "jane_smith.jpg", availability: "Tuesday-Saturday, 10am-6pm")
+Doctor.create(name: "Michael Johnson", specialization: "Oncology", email: "michaeljohnson@example.com", phone: "987-654-3210", image: "michael_johnson.jpg", availability: "Monday-Wednesday, 8am-4pm")
+Doctor.create(name: "Emily Chen", specialization: "Dermatology", email: "emilychen@example.com", phone: "111-222-3333", image: "emily_chen.jpg", availability: "Thursday-Sunday, 11am-7pm")
 
 
 # Appointments table sample data

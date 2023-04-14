@@ -5,8 +5,9 @@ class CreateDoctors < ActiveRecord::Migration[7.0]
       t.string :specialization
       t.string :email
       t.string :phone
+      t.string :image
+      t.string :availability 
       t.timestamps
-      t.references :user, null: false, foreign_key: { to_table: :users }
     end
   end
 end
