@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.configure do |config|
@@ -20,16 +22,16 @@ RSpec.configure do |config|
         version: 'v1'
       },
       paths: {},
-      servers: [
-        {
-          url: 'https://{defaultHost}',
-          variables: {
-            defaultHost: {
-              default: 'www.example.com'
-            }
-          }
-        }
-      ]
+     servers: [
+   {
+     url: 'http://{defaultHost}',
+     variables: {
+      defaultHost: {
+       default: '[::1]:3000/'
+     }
+    }
+   }
+]
     }
   }
 

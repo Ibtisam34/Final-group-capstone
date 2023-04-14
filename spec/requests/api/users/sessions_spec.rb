@@ -1,4 +1,4 @@
-require 'swagger_helper'
+require 'er_helper'
 RSpec.describe 'api/users/sessions', type: :request do
   describe 'api/login' do
     let(:user) { User.new(username: 'Odai', email: 'Odai@gmail.com', password: 'great478') }

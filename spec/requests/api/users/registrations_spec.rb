@@ -1,4 +1,4 @@
-require 'swagger_helper'
+require 'er_helper'
 RSpec.describe 'api/users/registrations', type: :request do
   path '/api/signup' do
     post('create registration') do
