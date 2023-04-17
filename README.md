@@ -2,19 +2,17 @@
 
 # 📗 Table of Contents
 
-- [� Table of Contents](#-table-of-contents)
-- [📖 \[booking-app \] ](#-booking-app--)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[final-group-capstone \] ](#-final-group-capstone--)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
     - [Run tests](#run-tests)
-    - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -136,6 +134,11 @@ rspec spec/requests/api/users/sessions_spec.rb
 
 - GitHub: [@ibtisam34](https://github.com/ibtisam34)
 - LinkedIn: [Falis](https://linkedin.com/in/falis-abdikani/)
+
+👤 **Joshua Blue-Jack**
+
+- GitHub: [@Tamunokuro](https://github.com/Tamunokuro)
+- LinkedIn: [Joshua Blue-Jack](https://linkedin.com/in/joshua-blue-jack/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

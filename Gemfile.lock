@@ -74,6 +74,7 @@ GEM
     bootsnap (1.16.0)
       msgpack (~> 1.2)
     builder (3.2.4)
+    cancancan (3.5.0)
     capybara (3.39.0)
       addressable
       matrix
@@ -272,7 +273,6 @@ GEM
       sprockets (>= 3.0.0)
     stimulus-rails (1.2.1)
       railties (>= 6.0.0)
-    swagger-ui_rails (0.1.7)
     thor (1.2.1)
     timeout (0.3.2)
     turbo-rails (1.4.0)
@@ -313,6 +313,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
+  cancancan
   capybara
   debug
   devise
@@ -333,14 +334,13 @@ DEPENDENCIES
   shoulda-matchers (~> 5.3)
   sprockets-rails
   stimulus-rails
-  swagger-ui_rails
   turbo-rails
   tzinfo-data
   web-console
   webdrivers
 
 RUBY VERSION
-   ruby 3.2.1p31
+   ruby 3.1.4p223
 
 BUNDLED WITH
    2.4.10
