@@ -140,6 +140,11 @@ rspec spec/requests/api/users/sessions_spec.rb
 - GitHub: [@Tamunokuro](https://github.com/Tamunokuro)
 - LinkedIn: [Joshua Blue-Jack](https://linkedin.com/in/joshua-blue-jack/)
 
+👤 **Girma Tarekegn**
+
+- GitHub: [@Girma](https://github.com/grima336)
+- LinkedIn: [Girma_Tarekegn](https://linkedin.com/in/girma-tarekegn/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

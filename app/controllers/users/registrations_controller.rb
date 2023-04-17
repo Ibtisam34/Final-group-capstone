@@ -1,4 +1,4 @@
-class Api::Users::RegistrationsController < Devise::RegistrationsController
+class Users::RegistrationsController < Devise::RegistrationsController
   respond_to :json
 
   private
@@ -11,15 +11,15 @@ class Api::Users::RegistrationsController < Devise::RegistrationsController
 
   def register_success
     render json: {
-      status: '00',
-      message: 'Signed up sucessfully.',
+      status: { code: 200, message: 'User was register sucessfully.' },
+      user: current_user,
       data: UserSerializer.new(resource).serializable_hash[:data][:attributes]
-    }
+    }, status: :ok
   end
 
   def register_failed
     render json: {
-      status: '04',
+      status: '401',
       message: 'Something went wrong.'
     }
   end
