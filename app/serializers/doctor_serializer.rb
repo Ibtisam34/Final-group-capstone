@@ -1,5 +1,4 @@
-class DoctorSerializer
+class VehicleSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :id, :name, :specialization, :email, :phone, :created_at
-  belongs_to :user
+  attributes :name, :image, :specialization, :phone, :image, :availability
 end
