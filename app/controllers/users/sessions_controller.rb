@@ -1,4 +1,4 @@
-class Api::Users::SessionsController < Devise::SessionsController
+class Users::SessionsController < Devise::SessionsController
   respond_to :json
 
   private
@@ -11,7 +11,7 @@ class Api::Users::SessionsController < Devise::SessionsController
     render json: {
       status: '00',
       message: 'Login sucessful.',
-      data: UserSerializer.new(current_api_user).serializable_hash[:data][:attributes]
+      data: UserSerializer.new(current_user).serializable_hash[:data][:attributes]
     }
   end
 

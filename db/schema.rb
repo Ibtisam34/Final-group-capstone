@@ -15,10 +15,9 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_13_083413) do
   enable_extension "plpgsql"
 
   create_table "appointments", force: :cascade do |t|
+    t.datetime "date"
     t.bigint "user_id", null: false
     t.bigint "doctor_id", null: false
-    t.datetime "pickup_date"
-    t.datetime "return_date"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["doctor_id"], name: "index_appointments_on_doctor_id"
@@ -32,10 +31,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_13_083413) do
     t.string "phone"
     t.string "image"
     t.string "availability"
-    t.bigint "user_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["user_id"], name: "index_doctors_on_user_id"
   end
 
   create_table "jwt_denylist", force: :cascade do |t|
@@ -59,6 +56,4 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_13_083413) do
   end
 
   add_foreign_key "appointments", "doctors"
-  add_foreign_key "appointments", "users"
-  add_foreign_key "doctors", "users"
 end
