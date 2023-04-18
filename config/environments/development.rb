@@ -10,7 +10,7 @@ Rails.application.configure do
 
   # Do not eager load code on boot.
   config.eager_load = false
-
+  ENV['DEVISE_JWT_SECRET_KEY'] = 'e9fe2d2efa04db5098f659944f0dac91f1e44381e59ff737ce43ad16436d20934b4b8af7a45b1cb991718373d9e44be70ddb43f7be5f044b1caa9cd9c53dcb44'
   # Show full error reports.
   config.consider_all_requests_local = true
 
