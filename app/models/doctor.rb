@@ -1,4 +1,4 @@
-class Vehicle < ApplicationRecord
+class Doctor < ApplicationRecord
   validates :name, presence: true
   validates :specialization, presence: true
   validates :email, presence: true, format: { with: URI::MailTo::EMAIL_REGEXP }

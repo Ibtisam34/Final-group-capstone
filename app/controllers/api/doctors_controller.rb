@@ -1,4 +1,5 @@
-class Api::VehiclesController < ApplicationController
+class Api::DoctorsController < ApplicationController
+    
   def index
     render json: {
       status: { code: 200, message: 'Doctors were fetched sucessfully.' },
@@ -21,7 +22,7 @@ class Api::VehiclesController < ApplicationController
   end
 
   def create
-    @doctor = current_user.doctors.new(doctor_params)
+    @doctor = current_user.doctors.build(doctor_params)
 
     if @doctor.save
       render json: {
@@ -75,7 +76,7 @@ class Api::VehiclesController < ApplicationController
 
   private
 
-  def vehicles_params
-    params.require(:vehicles).permit(:name, :image, :specialization, :phone, :image, :availability)
+  def doctor_params
+    params.require(:doctor).permit(:name, :image, :specialization, :phone, :image, :availability, :user_id)
   end
 end
