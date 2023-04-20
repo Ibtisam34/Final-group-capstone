@@ -6,6 +6,5 @@ class Doctor < ApplicationRecord
   validates :image, presence: true
   validates :availability, presence: true
 
-  belongs_to :user
   has_many :appointments
 end

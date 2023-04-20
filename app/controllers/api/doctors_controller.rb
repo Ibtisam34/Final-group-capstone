@@ -22,7 +22,7 @@ class Api::DoctorsController < ApplicationController
   end
 
   def create
-    @doctor = current_user.doctors.build(doctor_params)
+    @doctor = Doctor.new(doctor_params)
 
     if @doctor.save
       render json: {
@@ -77,6 +77,6 @@ class Api::DoctorsController < ApplicationController
   private
 
   def doctor_params
-    params.require(:doctor).permit(:name, :image, :specialization, :phone, :image, :availability, :user_id)
+    params.require(:doctor).permit(:name, :image, :specialization, :phone, :image, :availability)
   end
 end

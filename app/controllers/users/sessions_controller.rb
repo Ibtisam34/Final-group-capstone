@@ -9,22 +9,22 @@ class Users::SessionsController < Devise::SessionsController
 
   def login_success
     render json: {
-      status: '00',
-      message: 'Login sucessful.',
+      status: { code: 200, message: 'Login sucessful.' },
+      user: current_user,
       data: UserSerializer.new(current_user).serializable_hash[:data][:attributes]
-    }
+    }, status: :ok
   end
 
   def login_failure
     render json: {
-      status: '01',
+      status: 401,
       message: 'Login failure, try again!'
-    }
+    }, status: :unprocessable_entity
   end
 
   def respond_to_on_destroy
     render json: {
-      status: '00',
+      status: 200,
       message: 'You are logged out.'
     }, status: :ok
   end
