@@ -1,10 +1,10 @@
-class CreateAppointment < ActiveRecord::Migration[7.0]
+class CreateApponitments < ActiveRecord::Migration[7.0]
   def change
-    create_table :appointments do |t|
+    create_table :apponitments do |t|
+      t.datetime :date
+
       t.references :user, null: false, foreign_key: true
       t.references :doctor, null: false, foreign_key: true
-      t.datetime :pickup_date
-      t.datetime :return_date
       t.timestamps
     end
   end
