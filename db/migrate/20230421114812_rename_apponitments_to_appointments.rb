@@ -1,5 +1,0 @@
-class RenameApponitmentsToAppointments < ActiveRecord::Migration[7.0]
-  def change
-    rename_table :apponitments, :appointments
-  end
-end
