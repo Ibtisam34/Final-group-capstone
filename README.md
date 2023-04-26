@@ -118,8 +118,6 @@ Install this project with:
 To run tests, run the following command:
 rspec spec/models/doctor_spec.rb
 rspec spec/models/user_spec.rb
-rspec spec/requests/api/users/registrations_spec.rb
-rspec spec/requests/api/users/sessions_spec.rb
 ```
 
 

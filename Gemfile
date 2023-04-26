@@ -11,8 +11,8 @@ gem 'rack-cors'
 gem 'sprockets-rails'
 
 # Use postgresql as the database for Active Record
+gem 'figaro'
 gem 'pg', '~> 1.1'
-
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'puma', '~> 5.0'
 gem 'rswag'
