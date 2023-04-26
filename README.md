@@ -198,7 +198,7 @@ Give a ⭐️ if you like this project!
  
  <!-- Initial Kanban Board -->
  
- ##Initial  Kanban Board <a name="kanban_board"></a>
+ ## Initial  Kanban Board <a name="Initial kanban_board"></a>
  
  ![image](https://user-images.githubusercontent.com/108012550/231453155-9bdbfaea-2a2a-4d0f-8875-15887a97384f.png)
 
