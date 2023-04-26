@@ -193,7 +193,7 @@ Give a ⭐️ if you like this project!
 ## Kanban Board <a name="kanban_board"></a>
 
 - [Kanban Board](https://github.com/users/Ibtisam34/projects/12)
-- ![Screenshot](https://docs.google.com/document/d/1jzPmKHNdstdK227hxN7X9nVYM6ppqDdjyJxeas36hdA/edit?usp=sharing)
+- ![Screenshot](https://docs.google.com/document/d/1jzPmKHNdstdK227hxN7X9nVYM6ppqDdjyJxeas36hdA/edit)
 
 - Team of 4 members
 
