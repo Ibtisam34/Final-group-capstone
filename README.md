@@ -193,7 +193,10 @@ Give a ⭐️ if you like this project!
 ## Kanban Board <a name="kanban_board"></a>
 
 - [Kanban Board](https://github.com/users/Ibtisam34/projects/12)
- -### Initail kanban state
+ 
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+ 
+ <!-- Initial Kanban Board -->
  
  ![image](https://user-images.githubusercontent.com/108012550/231453155-9bdbfaea-2a2a-4d0f-8875-15887a97384f.png)
 
