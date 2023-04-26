@@ -78,7 +78,7 @@ Clone this repository to your desired folder:
 
 To run and view this application, you will first have to clone a local version of this repository using:
 
-`git clone https://github.com/Ibtisam34/Final-group-capstone.git`
+git clone https://github.com/Ibtisam34/Final-group-capstone
 
 ### Install
 
@@ -196,7 +196,7 @@ Give a ⭐️ if you like this project!
 
 - Team of 4 members
 
-- ![Screenshot]()
+- ![Screenshot](https://docs.google.com/document/d/1FATVhmj7xH7vcVbKCLvkWErUBY4dRRCYbFHni1JCM5A/edit?usp=sharing)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
