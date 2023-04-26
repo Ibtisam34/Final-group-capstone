@@ -33,7 +33,6 @@ class Api::V1::AppointmentsController < ApplicationController
     render json: { status: 'success', message: 'Appointment deleted' }
   end
 
-
   private
 
   def set_appointment
