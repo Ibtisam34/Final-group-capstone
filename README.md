@@ -196,7 +196,7 @@ Give a ⭐️ if you like this project!
 
 - Team of 4 members
 
-- ![Screenshot](https://docs.google.com/document/d/1FATVhmj7xH7vcVbKCLvkWErUBY4dRRCYbFHni1JCM5A/edit?usp=sharing)
+- ![Screenshot](https://docs.google.com/document/d/1FATVhmj7xH7vcVbKCLvkWErUBY4dRRCYbFHni1JCM5A/edit?usp=sharing) 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
