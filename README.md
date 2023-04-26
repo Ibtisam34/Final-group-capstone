@@ -145,6 +145,10 @@ rspec spec/requests/api/users/sessions_spec.rb
 - GitHub: [@Girma](https://github.com/grima336)
 - LinkedIn: [Girma_Tarekegn](https://linkedin.com/in/girma-tarekegn/)
 
+👤 **Odai**
+
+- GitHub: [@odaialazzeh](https://github.com/odaialazzeh)
+- LinkedIn: [odai alazzeh](https://github.com/odaialazzeh)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
