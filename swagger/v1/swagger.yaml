@@ -1,0 +1,258 @@
+---
+swagger: '2.0'
+info:
+  title: API V1
+  version: v1
+paths:
+  "/api/appointments":
+    get:
+      summary: list all appointments
+      tags:
+      - Appointments
+      responses:
+        '200':
+          description: successful
+    post:
+      summary: add a appointments
+      tags:
+      - Appointments
+      consumes:
+      - application/json
+      parameters:
+      - name: appointments
+        in: body
+        schema:
+          type: object
+          properties:
+            appointments:
+              type: object
+              properties:
+                user_id:
+                  type: integer
+                doctor_id:
+                  type: integer
+                date:
+                  type: string
+                  format: datetime
+              required:
+              - user_id
+              - doctor_id
+              - date
+      responses:
+        '201':
+          description: successful
+  "/api/appointments/{id}":
+    parameters:
+    - name: id
+      in: path
+      type: string
+      description: id
+      required: true
+    delete:
+      summary: Delete a appointments
+      tags:
+      - appointments
+      consumes:
+      - application/json
+      - application/xml
+      produces:
+      - application/json
+      - application/xml
+      parameters:
+      - name: id
+        in: path
+        type: integer
+        required: true
+      responses:
+        '204':
+          description: appointments deleted
+    put:
+      summary: update a appointments
+      tags:
+      - appointments
+      consumes:
+      - application/json
+      parameters:
+      - name: appointments
+        in: body
+        schema:
+          type: object
+          properties:
+            appointments:
+              type: object
+              properties:
+                user_id:
+                  type: integer
+                doctor_id:
+                  type: integer
+                date:
+                  type: string
+                  format: datetime
+              required:
+              - user_id
+              - doctor_id
+              - date
+      responses:
+        '201':
+          description: successful
+  "/api/doctor":
+    get:
+      summary: list doctor
+      tags:
+      - Doctor
+      responses:
+        '200':
+          description: successful
+    post:
+      summary: create doctor
+      tags:
+      - Doctor
+      consumes:
+      - application/json
+      parameters:
+      - name: doctor
+        in: body
+        required: true
+        schema:
+          type: object
+          properties:
+            doctor:
+              type: object
+              properties:
+                name:
+                  type: string
+                specialization:
+                  type: string
+                email:
+                  type: string
+                phone:
+                  type: string
+                image:
+                  type: string
+                availability:
+                  type: string
+              required:
+              - name
+              - specialization
+              - email
+              - phone
+              - image
+              - availability
+      responses:
+        '201':
+          description: successful
+  "/api/doctor/{id}":
+    delete:
+      summary: Delete a doctor
+      tags:
+      - doctor
+      consumes:
+      - application/json
+      - application/xml
+      produces:
+      - application/json
+      - application/xml
+      parameters:
+      - name: id
+        in: path
+        type: integer
+        required: true
+      responses:
+        '204':
+          description: doctor deleted
+    patch:
+      summary: update doctor
+      tags:
+      - doctor
+      consumes:
+      - application/json
+      parameters:
+      - name: id
+        in: path
+        type: integer
+        required: true
+      - name: doctor
+        in: body
+        schema:
+          type: object
+          properties:
+            doctor:
+              type: object
+              properties:
+                name:
+                  type: string
+                specialization:
+                  type: string
+                email:
+                  type: string
+                phone:
+                  type: string
+                image:
+                  type: string
+                availability:
+                  type: string
+              required:
+              - name
+              - specialization
+              - email
+              - phone
+              - image
+              - availability
+      responses:
+        '204':
+          description: successful
+  "/api/users":
+    get:
+      summary: list all users
+      tags:
+      - Users
+      responses:
+        '200':
+          description: successful
+    post:
+      summary: create user
+      tags:
+      - Users
+      consumes:
+      - application/json
+      parameters:
+      - name: user
+        in: body
+        required: true
+        schema:
+          type: object
+          properties:
+            user:
+              type: object
+              properties:
+                name:
+                  type: string
+                email:
+                  type: string
+              required:
+              - name
+              - email
+      responses:
+        '201':
+          description: successful
+  "/api/users/{id}":
+    get:
+      summary: Retrieves all appointments made by a User
+      tags:
+      - Users
+      produces:
+      - application/json
+      - application/xml
+      parameters:
+      - name: id
+        in: path
+        type: string
+        required: true
+      responses:
+        '200':
+          description: user found
+servers:
+- url: http://{defaultHost}
+  variables:
+    defaultHost:
+      default: localhost:3000
