@@ -1,6 +1,6 @@
 class User < ApplicationRecord
-    has_many :appointments, dependent: :destroy
+  has_many :appointments, dependent: :destroy
 
-    validates :name, presence: true
-    validates :email, presence: true
+  validates :name, presence: true
+  validates :email, presence: true
 end
